@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto italic';
+    src: url(fonts/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+header {
+    background-color: #1f2936;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 10px;
+}
+
+.hero {
+    border-top: 1px solid #273444;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2936;
+    color: white;
+    padding: 50px 350px;
+}
+
+.text-section {
+    max-width: 300px;
+}
+
+.imageplaceholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.section1 p, .section2 p {
+    flex-basis: 50%;
+    margin: 0 10px;
+}
+
+.rectangle {
+    width: 300px;
+    height: 150px;
+    border: 3px solid #3782f5;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #e4e5eb;
+    font-family: Roboto italic, serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    padding: 75px 550px;
+}
+
+.cta-box {
+    background-color: #3782f5;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.cta-text {
+    padding: 0px 150px;
+}
+
+.button1{
+    background-color: #3782f5;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button1:hover {
+    background-color: #223bb4;
+}
+
+.button2 {
+    background-color: #3782f5;
+    width: 100px;
+    height: 30px;
+    border: solid white 2px;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button2:hover {
+    background-color: #1f2936;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    float: left;
+}
+
+footer {
+    background-color: #1f2936;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
+}
+
+#weather-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#weather-info {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
